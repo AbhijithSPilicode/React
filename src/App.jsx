@@ -5,14 +5,7 @@ import './App.css'
 
 import React from 'react';
 
-// const Container = () => {
-//   return (
-//     <div>
-//       <div>Hey Kalvians! Welcome to React Learning</div>
-//       <div>Let's rock and roll</div>
-//     </div>
-//   );
-// };
+//Hello world using Functional component
 const Container = () =>{
     return React.createElement(`div`,null,`Hey Kalvians! Welcome to React Learning`,
        React.createElement(`div`,null,`Let's rock and roll`)
